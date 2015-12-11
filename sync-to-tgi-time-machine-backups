@@ -13,7 +13,8 @@ my @dirs = (
 
 for my $dir (@dirs) {
 #    my $dest = "/Volumes/Hepler-Home-Media-1/$dir";
-    my $dest = "/Volumes/tgi-time-machine-backups/todd-account/final";
+#    my $dest = "/Volumes/tgi-time-machine-backups/todd-account/final";
+    my $dest = "/Volumes/tgi-time-machine-backups/thepler-account";
     my $cmd = "rsync -av $dir $dest";
     print "$cmd\n";
     system($cmd);
